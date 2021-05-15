@@ -14,7 +14,9 @@ Procedure:
 * In github, I went into actions and created the CI workflow:
 	* JAVA CI with Gradle 
 
-* went into deploymeny.yml to create an edit and decrease replicas to 2 to use the CI workflow
+	![ci t](images/Screen%20Shot%202021-05-14%20at%206.49.21%20PM.png)
+
+* went into deployment.yml to create an edit and decrease replicas to 2 to use the CI workflow
 
 * PROBLEM:
 	* the workflow was not running
@@ -24,3 +26,11 @@ Procedure:
 * made an edit and pushed it to the branch
 
 * the CI workflow ran and did what it was supposed to do
+
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.43.06%20PM.png)
+
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.44.01%20PM.png)
+
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.45.25%20PM.png)
+
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.54.45%20PM.png)
