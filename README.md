@@ -41,6 +41,8 @@ Procedure:
 
 * went into actions again and created the google.yml workflow
 
+* went into GoogleCloud to create the service account and generate the key
+
 * 
 
 
