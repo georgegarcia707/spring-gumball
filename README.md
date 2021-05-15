@@ -34,3 +34,13 @@ Procedure:
 	![ci t](images/Screen%20Shot%202021-05-14%20at%207.45.25%20PM.png)
 
 	![ci t](images/Screen%20Shot%202021-05-14%20at%207.54.45%20PM.png)
+
+
+
+## CD Workflow (Part 2)
+
+* went into actions again and created the google.yml workflow
+
+* 
+
+
