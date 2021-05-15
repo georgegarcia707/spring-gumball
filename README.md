@@ -51,7 +51,7 @@ Procedure:
 
 * in github I set the action secrets:
 
-	![cd t](images/Screen%20Shot%202021-05-14%20at%207.19.57%20PM.png)
+	![cd t](images/Screen%20Shot%202021-05-14%20at%207.24.59%20PM.png)
 
 * created the GKE cluster "cmpe172"
 
