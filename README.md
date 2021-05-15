@@ -1,4 +1,4 @@
-# CMPE 172 - Lab #8 Notes
+# CMPE 172 - Lab #10 Notes
 # spring-gumball ci/cd example
 
 ## CI Workflow (Part 1)
