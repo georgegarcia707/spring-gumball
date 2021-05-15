@@ -41,9 +41,58 @@ Procedure:
 
 * went into actions again and created the google.yml workflow
 
+	![cd t](images/Screen%20Shot%202021-05-15%20at%203.18.34%20PM.png)
+
 * went into GoogleCloud to create the service account and generate the key
 
-	![ci t](images/Screen%20Shot%202021-05-14%20at%207.20.25%20PM.png)
+	![cd t](images/Screen%20Shot%202021-05-14%20at%207.20.25%20PM.png)
 
-	![ci t](images/Screen%20Shot%202021-05-14%20at%207.54.45%20PM.png)
+	![cd t](images/Screen%20Shot%202021-05-14%20at%207.19.57%20PM.png)
+
+* in github I set the action secrets:
+
+	![cd t](images/Screen%20Shot%202021-05-14%20at%207.19.57%20PM.png)
+
+* created the GKE cluster "cmpe172"
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.33.53%20PM.png)
+
+* triggered the CD workflow deployment by creating a new release
+
+* PROBLEM: gave me an authentication error
+	* SOLUTION: set role for the service account in GoogleCloud
+
+* re-ran the CD workflow deployment and successfully deployed
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%201.44.04%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.14.38%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.14.54%20PM.png)
+
+
+* GKE Workload
+	
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.15.48%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.17.06%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.17.19%20PM.png)
+
+* GKE Service
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.16.18%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.17.36%20PM.png)
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.17.45%20PM.png)
+
+* created the Ingress
+	* waited for ingress to get created
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.40.01%20PM.png)
+
+* successfully deployed spring gumball
+
+	![cd t](images/Screen%20Shot%202021-05-15%20at%202.40.24%20PM.png)
 
