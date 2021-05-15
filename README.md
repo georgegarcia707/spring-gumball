@@ -43,6 +43,7 @@ Procedure:
 
 * went into GoogleCloud to create the service account and generate the key
 
-* 
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.20.25%20PM.png)
 
+	![ci t](images/Screen%20Shot%202021-05-14%20at%207.54.45%20PM.png)
 
