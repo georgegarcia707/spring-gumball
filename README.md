@@ -20,7 +20,7 @@ Procedure:
 
 * PROBLEM:
 	* the workflow was not running
-	* SOLUTION: I noticed that the gradle.yml file had the worng branch name.
+	* SOLUTION: I noticed that the gradle.yml file had the wrong branch name.
 		* updated the branch name from "main" to "master"
 
 * made an edit and pushed it to the branch
