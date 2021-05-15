@@ -58,6 +58,8 @@ Procedure:
 	![cd t](images/Screen%20Shot%202021-05-15%20at%202.33.53%20PM.png)
 
 * triggered the CD workflow deployment by creating a new release
+	
+	![cd t](images/Screen%20Shot%202021-05-15%20at%203.52.21%20PM.png)
 
 * PROBLEM: gave me an authentication error
 	* SOLUTION: set role for the service account in GoogleCloud
